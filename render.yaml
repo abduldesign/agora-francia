@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: jigawa_management_system
+    buildCommand: npm install && npm run build
+    startCommand: npm start
